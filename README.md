@@ -2,9 +2,9 @@
 
 - ### 关于业务流程
 - 区域链（基于证书准入的联盟链）网络
-![网络拓扑](https://images.gitee.com/uploads/images/2019/1213/220848_ade3e3ba_69848.png "网络拓扑")
+![网络拓扑](./220848_ade3e3ba_69848.png "网络拓扑")
 - 业务流程时序
-![业务流程时序图](https://images.gitee.com/uploads/images/2019/1215/113916_deb179d8_69848.png "业务流程时序图")
+![业务流程时序图](./113916_deb179d8_69848.png "业务流程时序图")
 - ### 关于超级账本
 关于区块链、超级账本、智能合约等概念，请自行谷哥和度娘。建议直接参考官网文档 https://hyperledger-fabric.readthedocs.io/en/release-1.4/ 
 
@@ -92,7 +92,7 @@ docker logs -f appcli
 [fcc-server] 2019/12/12 03:03:56 Server started on  :1206
 ```
 9. 编译和部署前端。 前端采用VUE，也可使用其它前端框架或HTML。使用GNINX或其它WEB服务器部署编译后的前端代码。注：当前未使用登录和权限设置。
-![DEMO](https://images.gitee.com/uploads/images/2019/1213/220847_4ebbb1d6_69848.png "DEMO")
+![DEMO](./1582539675757.jpg "DEMO")
 第一次操作数据上链时，区块链网络后端会根据背书节点和合约数量创建镜像并启动容器（本例为3*2) 大约耗时30-60秒，之后每次上链操作约1秒，查询小于1秒。
 
 10. 重建后台容器或重建整个区块链网络：
