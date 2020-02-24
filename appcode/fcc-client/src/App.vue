@@ -2,9 +2,9 @@
 <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app>
         <v-layout row wrap>
-            <!-- <v-flex align-center justify-center layout text-xs-center>
+            <v-flex align-center justify-center layout text-xs-center>
                 <img src="@/assets/guo.png">
-            </v-flex> -->
+            </v-flex>
         </v-layout>
         <v-divider />
         <v-list dense>
