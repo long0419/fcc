@@ -3,7 +3,6 @@
     <v-navigation-drawer v-model="drawer" app>
         <v-layout row wrap>
             <v-flex align-center justify-center layout text-xs-center>
-                <img src="@/assets/guo.png">
             </v-flex>
         </v-layout>
         <v-divider />
@@ -24,7 +23,7 @@
 
     <v-app-bar app color="blue" dark>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-        <v-toolbar-title>基于联盟区块链的个人大数据DEMO</v-toolbar-title>
+        <v-toolbar-title>基于联盟区块链的个人信息大数据DEMO</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
@@ -32,9 +31,6 @@
             <router-view />
         </v-container>
     </v-content>
-    <!-- <v-footer color="indigo" app>
-        <span class="white--text">&copy; xujf000@gmail.com 2020</span>
-    </v-footer> -->
 </v-app>
 </template>
 
